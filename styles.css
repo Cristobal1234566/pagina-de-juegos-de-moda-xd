@@ -1,0 +1,51 @@
+.left-nav {
+    color: goldenrod;
+}
+
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-youtube {
+    border-color:transparent;
+    display: inline-flex;
+    align-items: center;
+    font-weight:500
+    font-size: 0.875rem;
+    background-color: rgba (75, 85, 99, 1); 
+    : color #ffffff
+}   
+
+#hero {
+    display:grid ;
+    justify-content: center;
+}
+  a {
+text-decoration:none ;
+    color: inherit;
+}
+
+   
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card  {
+    box-shadow: 0 10px 15px -3px rgba (0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem
+}
+
+.card-header {
+    flex-shrink: 0;
+}
+.card-header__img {
+   width: 100%; 
+   object-fit: cover;
+   height: 12rem;
+   border-radius: 0.5rem 0.5rem 0 0;
+}
